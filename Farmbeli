@@ -27,7 +27,7 @@ require(game.ReplicatedStorage:WaitForChild("Notification")).new(
             " <Color=Yellow>https://discord.gg/nhwUXhzd<Color=/> "
         ):Display()
 		
-local MaxSpeed = 399 -- Studs per second 400 no flag but kick
+local MaxSpeed = 380 -- Studs per second 400 no flag but kick
 
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Locations = workspace._WorldOrigin.Locations
